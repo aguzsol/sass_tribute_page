@@ -400,6 +400,11 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
 
 /**
  * Clear inner floats

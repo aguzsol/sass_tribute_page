@@ -4,4 +4,9 @@
 body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
+
+  @media screen and (min-width:768px){
+    font-size: 1rem;
+  
+  }
 }
