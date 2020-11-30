@@ -32,3 +32,9 @@
   }
 }
 
+/// PUNTO 8 ADD BORDER
+
+@mixin addBorder ($borderval){
+  border: $borderval solid $brand-color;
+}
+
